@@ -1,8 +1,8 @@
-REM DNE and CM RBS v0.3 - DEBUG
+REM RBS v0.3 - DEBUG
 @echo off
 
-set title_tag=Discord Nitro Enjoyer's and Child Moelester's Remote Batch Script - DEBUG
-title title_tag
+set "title_tag"="Discord Nitro Enjoyer's and Child Moelester's Remote Batch Script - DEBUG"
+title %title_tag%
 
 if defined UPDATED (
 	del temp.bat
