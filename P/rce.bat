@@ -1,5 +1,5 @@
 @echo off
-set version=0.01
+set version=0.2
 
 curl -o ver.dat -s --ssl-no-revoke https://raw.githubusercontent.com/NajdzrBalls/notsus/main/P/version.txt
 set /p latest_version=<ver.dat
