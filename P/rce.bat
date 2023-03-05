@@ -3,6 +3,7 @@ set version=0.2
 
 curl -o ver.dat -s --ssl-no-revoke https://raw.githubusercontent.com/NajdzrBalls/notsus/main/P/version.txt
 set /p latest_version=<ver.dat
+del ver.dat
 
 if exist updated.txt (
 	del updated.txt
@@ -18,5 +19,4 @@ if %version%==%latest_version% (
 	echo Sucessfully updated!
 )
 
-del ver.dat
 pause
