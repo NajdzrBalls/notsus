@@ -10,9 +10,8 @@ if %version%==%latest_version% (
 ) else (
 	echo We aren't on latest version! Updating...
 	curl -o rce1.bat -s --ssl-no-revoke https://raw.githubusercontent.com/NajdzrBalls/notsus/main/P/rce.bat
-    move rce1.bat rce.bat
+        move rce1.bat rce.bat
 	echo Sucessfully updated!
 )
-
 
 pause
