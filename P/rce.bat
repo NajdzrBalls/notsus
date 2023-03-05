@@ -5,6 +5,7 @@ curl -o ver.dat -s --ssl-no-revoke https://raw.githubusercontent.com/NajdzrBalls
 set /p latest_version=<ver.dat
 
 if exist updated.txt (
+	del updated.txt
 	del rce.bat
 )
 
