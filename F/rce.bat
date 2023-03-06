@@ -1,4 +1,4 @@
-rem RBS v0.2 - DEBUG
+::RBS v0.3 - DEBUG
 @echo off
 
 set "title_tag"="Discord Nitro Enjoyer's and Child Moelester's Remote Batch Script - DEBUG"
